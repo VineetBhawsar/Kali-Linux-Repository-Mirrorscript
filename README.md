@@ -29,7 +29,7 @@ optional arguments:
 
 
 # Automatically select the best Kali mirror and apply the configuration
-# https://github.com/IceM4nn/mirrorscript-v2
+# https://github.com/VineetBhawsar/Kali-Linux-Repository-Mirrorscript
 # https://www.metahackers.pro/speed-kali-linux-update/
 #
 
