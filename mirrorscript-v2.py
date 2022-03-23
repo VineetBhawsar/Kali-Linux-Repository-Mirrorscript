@@ -108,7 +108,7 @@ if __name__ == "__main__":
 		sys.exit("[!] Must run as root/sudo\n")
 
 	# Argument parser
-	parser = argparse.ArgumentParser(description='Kali Mirrorscripts-v2 by BROOKS automatically select the best kali mirror server and apply the configuration')
+	parser = argparse.ArgumentParser(description='Kali Mirrorscripts by Vineet Bhawsar automatically select the best kali mirror server and apply the configuration')
 	parser.add_argument('-v','--verbose', help='enable verbose output', action="store_true")
 	parser.add_argument('-https', help='use HTTPS in apt transport (default HTTP)', action="store_true")
 	parser.add_argument('-src', help='enable sources packages (default disable)', action="store_true")
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
 	# Banner
 	print("#")
-	print("# Mirrorscripts-v3 - By "BROOKS")
+	print("# Mirrorscripts - By "Vineet Bhawsar")
 	print("# Automatically select the best Kali mirror and apply the configuration")
 	print("# https://github.com/IceM4nn/mirrorscript-v2")
 	print("# https://www.metahackers.pro/speed-kali-linux-update/")
